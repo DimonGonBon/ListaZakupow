@@ -1,7 +1,7 @@
 # ListaZakupow
 
 Dodano stronę główną z popularnymi produktami:
-Wyświetlane są polskie produkty, takie jak chleb, mleko, ser żółty i jabłka.
+Wyświetlane są polskie produkty, takie jak chleb, mleko, ser żółty i kabanosy.
 
 Każdy produkt zawiera:
 Obrazek produktu.
