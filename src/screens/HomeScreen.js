@@ -23,7 +23,6 @@ export default function HomeScreen({ navigation }) {
       if (error) throw error;
       setProducts(data);
     } catch (error) {
-      console.error('Error fetching products:', error.message);
       Alert.alert('Błąd', 'Nie udało się pobrać produktów');
     } finally {
       setLoading(false);
