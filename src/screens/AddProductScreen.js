@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  StyleSheet,
-  Alert,
-} from 'react-native';
+import {View,Text,TextInput,TouchableOpacity,StyleSheet,Alert,} from 'react-native';
 import { supabase } from '../../lib/supabase';
 
 import { useAuth } from '../context/AuthContext';
@@ -39,7 +32,7 @@ export default function AddProductScreen({ navigation }) {
       image: imageUrl,
       description,
       bought: false,
-      user_id: user.id, // ważne!
+      user_id: user.id,
     });
 
     if (error) {
